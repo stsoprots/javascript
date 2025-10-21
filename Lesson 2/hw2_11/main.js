@@ -16,7 +16,7 @@
 //     x = 'default';
 // }
 
-let x = 0;
+let x;
 
 if (!x) {
     x = 'default'
