@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.users-box{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.user-block{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 10px;
+}
