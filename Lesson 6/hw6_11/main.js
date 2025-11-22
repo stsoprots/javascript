@@ -32,12 +32,15 @@ for (let suit of suits) {
 }
 
 let reduce = deck.reduce((acc, card) => {
-    if (card.cardSuit) {
+    if (card.cardSuit === 'spade') {
         acc.spades.push(card.value);
+    } else if (card.cardSuit === 'diamond') {
         acc.diamonds.push(card.value);
-        acc.heart.push(card.value);
+    } else if (card.cardSuit === 'heart') {
+        acc.hearts.push(card.value);
+    } else if (card.cardSuit === 'clubs') {
         acc.clubs.push(card.value);
     }
     return acc;
-}, {spades: [], diamonds: [], heart: [],  clubs: []});
+}, {spades: [], diamonds: [], hearts: [],  clubs: []});
 console.log(reduce);
