@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 10px;
+    padding-right: 20px;
+}
+body{
+    background: #292929;
+    font-family: Zalando Sans Expanded, Helvetica, sans-serif;
+}
+body>div{
+    margin-left: 20px;
+}
+.course{
+    color: white;
+    width: 100%;
+    height: 75vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+.MounthHour{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 26px;
+}
+.title{
+    font-size: 40px;
+
+}
+.modules{
+    margin: 30px
+}
+.course:nth-child(1){
+    color: black;
+    background: #ffffff;
+    background: linear-gradient(298deg, rgba(255, 255, 255, 1) 0%, rgba(148, 74, 0, 1) 0%, rgba(242, 238, 7, 1) 98%);
+}
+.course:nth-child(2){
+    color: black;
+    background: #ffffff;
+    background: linear-gradient(298deg, rgba(255, 255, 255, 1) 0%, rgba(56, 196, 242, 1) 0%, rgba(247, 153, 12, 1) 63%);
+}
+.course:nth-child(3){
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.course:nth-child(4){
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+.course:nth-child(5){
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+.course:nth-child(6){
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
